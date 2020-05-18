@@ -3,7 +3,7 @@ import pytest
 import allure
 import yaml
 import os
-from utils import get_file_path
+# from utils import get_file_path
 '''
 @author: lingshu
 @file: conftest.py
@@ -16,7 +16,7 @@ def env_config(request):
     读取yml配置文件
     """
     project_name = 'api_auto_test'
-    rootPath = get_file_path.get_root_path()
+    rootPath = get_root_path()
     print(rootPath)
     config_path = os.path.abspath(rootPath + 'config/env_config.yml')  # 获取tran.csv文件的路径
     with open(config_path) as f:
@@ -27,3 +27,15 @@ def env_config(request):
 #     curPath = os.path.abspath(os.path.dirname(__file__))
 #     rootPath = curPath[:curPath.find(project_name+"/") + len(project_name+"/")]  # 获取myProject，也就是项目的根路径
 #     return rootPath
+
+def get_root_path():
+    '''
+    获取根路径
+    :param project_name: 项目名
+    :return:
+    '''
+    curPath = os.path.abspath(os.path.dirname(__file__))
+    rootPath = curPath[:curPath.find("test_case")-1]+"/"  # 获取myProject，也就是项目的根路径
+    print(rootPath)
+    # print("rootPath= %s",rootPath)
+    return rootPath
