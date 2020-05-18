@@ -16,12 +16,12 @@ def env_config(request):
     """
     project_name = 'api_auto_test'
     rootPath = get_root_path(project_name)
-    config_path = os.path.abspath(rootPath + 'config\\env_config.yml')  # 获取tran.csv文件的路径
+    config_path = os.path.abspath(rootPath + 'config/env_config.yml')  # 获取tran.csv文件的路径
     with open(config_path) as f:
         env_config = yaml.load(f) #读取配置文件
     return env_config
 
 def get_root_path(project_name):
     curPath = os.path.abspath(os.path.dirname(__file__))
-    rootPath = curPath[:curPath.find(project_name+"\\") + len(project_name+"\\")]  # 获取myProject，也就是项目的根路径
+    rootPath = curPath[:curPath.find(project_name+"/") + len(project_name+"/")]  # 获取myProject，也就是项目的根路径
     return rootPath

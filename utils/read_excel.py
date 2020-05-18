@@ -8,7 +8,7 @@
 import xlrd
 from utils import get_file_path
 def read_excel():
-    file_path = get_file_path.get_root_path()+'testdata\\testdata.xlsx'
+    file_path = get_file_path.get_root_path()+'testdata/testdata.xlsx'
     # 文件位置
     excel_file=xlrd.open_workbook(file_path)
 
@@ -34,7 +34,7 @@ def read_excel():
 
 def get_xls():
     cls = []
-    file_path = get_file_path.get_root_path() + 'testdata\\testdata.xlsx'
+    file_path = get_file_path.get_root_path() + 'testdata/testdata.xlsx'
     # 文件位置
     excel_file = xlrd.open_workbook(file_path)
     sheet = excel_file.sheet_by_name('Sheet1')
