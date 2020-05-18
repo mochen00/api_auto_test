@@ -50,7 +50,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.get_file_path">
+  <component name="RunManager" selected="Python tests.pytest for test_postman_api.test_timestamp">
     <configuration name="get_file_path" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="api_auto_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,10 +151,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_postman_api.test_timestamp" />
         <item itemvalue="Python.get_file_path" />
         <item itemvalue="Python.read_excel" />
         <item itemvalue="Python tests.pytest in test_all_run.py" />
-        <item itemvalue="Python tests.pytest for test_postman_api.test_timestamp" />
         <item itemvalue="Python.read_excel2" />
       </list>
     </recent_temporary>
@@ -171,7 +171,7 @@
       <option name="presentableId" value="Default" />
       <updated>1557220666485</updated>
       <workItem from="1562590352962" duration="28000" />
-      <workItem from="1589787116588" duration="3592000" />
+      <workItem from="1589787116588" duration="3936000" />
     </task>
     <task id="LOCAL-00001">
       <created>1557221173234</created>
@@ -355,12 +355,23 @@
           <line>24</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_case/conftest.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_case/test_postman_api.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/api_auto_test$pytest_in_test_all_run_py.coverage" NAME="pytest in test_all_run.py Coverage Results" MODIFIED="1589791184134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/api_auto_test$get_file_path.coverage" NAME="get_file_path Coverage Results" MODIFIED="1589792092219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/api_auto_test$pytest_for_test_postman_api_test_timestamp.coverage" NAME="pytest for test_postman_api.test_timestamp Coverage Results" MODIFIED="1589792439810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/api_auto_test$read_excel.coverage" NAME="read_excel Coverage Results" MODIFIED="1589791309465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
   </component>
 </project>
