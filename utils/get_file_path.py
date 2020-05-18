@@ -16,10 +16,12 @@ def get_root_path():
     '''
     curPath = os.path.abspath(os.path.dirname(__file__))
     print(curPath+"ahahahhaahahhaah")
-    rootPath = curPath[:curPath.find(project_name+"/") + len(project_name+"/")]  # 获取myProject，也就是项目的根路径
+    rootPath = curPath[:curPath.find("utils")-1]+"/"  # 获取myProject，也就是项目的根路径
     print(rootPath)
     # print("rootPath= %s",rootPath)
     return rootPath
 
 if __name__ == '__main__':
     print(get_root_path())
+
+
