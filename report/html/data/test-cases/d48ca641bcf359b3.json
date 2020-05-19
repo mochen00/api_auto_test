@@ -1,0 +1,85 @@
+{
+  "uid" : "d48ca641bcf359b3",
+  "name" : "test_timestamp[2016-10-2018-12-True]",
+  "fullName" : "test_case.test_postman_api#test_timestamp",
+  "historyId" : "53fde7cd6b41869d3851fb0323bbef02",
+  "time" : {
+    "start" : 1589856813070,
+    "stop" : 1589856815115,
+    "duration" : 2045
+  },
+  "description" : "\n    用例描述：测试不同的timestamp和target\n    ",
+  "descriptionHtml" : "<pre><code>用例描述：测试不同的timestamp和target\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "env_config",
+    "time" : {
+      "start" : 1589856811107,
+      "stop" : 1589856811107,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "postman-api"
+  }, {
+    "name" : "feature",
+    "value" : "postman"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_postman_api"
+  }, {
+    "name" : "host",
+    "value" : "zhaofan03.local"
+  }, {
+    "name" : "thread",
+    "value" : "8780-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_postman_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected",
+    "value" : "'True'"
+  }, {
+    "name" : "target",
+    "value" : "'2018-12'"
+  }, {
+    "name" : "timestamp",
+    "value" : "'2016-10'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d48ca641bcf359b3.json",
+  "parameterValues" : [ "'True'", "'2018-12'", "'2016-10'" ]
+}
